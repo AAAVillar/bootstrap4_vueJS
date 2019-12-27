@@ -19,10 +19,10 @@
 
 				<div id="image_1" class="col-sm-4">
 					<h2 class="text-center">{{name_1}}</h2>
-					<h5>Photo of {{name_1}}:</h5>
+					<h5 class="text-center">Photo of {{name_1}}:</h5>
 					<img src="images/one.png" alt="pretty lady" class="img-fluid my-border" title="one.png">
-					
-					<h4>{{image_1_text}}</h4>
+					<h3 class="MYspan">{{image_1a_text}}</h3>
+					<h4>{{image_1b_text}}</h4>
 				</div>  <!--  id="image_1" class="col-sm-4"  -->
 
 
@@ -32,14 +32,16 @@
 						<h2 class="text-center">{{name_2}}</h2>
 						<h5>Title description, Dec 7, 2017</h5>
 						<img src="images/two.png" alt="pretty lady" class="img-fluid my-border" title="two.png">
-						<p>Some text..</p>
+						<h3 class="MYspan">{{image_2a_text}}</h3>
+						<h4>{{image_2b_text}}</h4>
 					</div>  <!-- /#image_2 -->
 
 					<div id="image_3" class="col-sm-12">
 						<h2 class="text-center">{{name_3}}</h2>
 						<h5>Title description, Sep 2, 2017</h5>
 						<img src="images/three.png" alt="pretty lady" class="img-fluid  justify-content-center my-border" title="three.png">
-						<p>Some text..</p>
+						<h3 class="MYspan">{{image_3a_text}}</h3>
+						<h4>{{image_3b_text}}</h4>
 					</div>  <!-- /#image_3 -->
 
 				</div>  <!-- class="col-sm-8" -->
